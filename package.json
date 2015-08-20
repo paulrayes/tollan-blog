@@ -1,6 +1,6 @@
 {
   "name": "tollan-blog",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Blog module for tollan applications",
   "author": "Paul Rayes",
   "license": "apache-2.0",
