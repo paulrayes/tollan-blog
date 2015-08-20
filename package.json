@@ -8,7 +8,8 @@
     "type": "git",
     "url": "https://bitbucket.org/leoninepublishers/tollan-blog"
   },
-  "main": "build/browser.js",
+  "main": "build/index.js",
+  "browser": "build/browser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel lib --out-dir build --source-maps",
