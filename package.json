@@ -15,7 +15,7 @@
     "babel": "babel lib --out-dir build --source-maps",
     "babel:watch": "babel lib --out-dir build --watch --source-maps",
     "lint": "eslint lib",
-    "lint:watch": "gaze \"eslint $path\" \"lib/**/*.js\"",
+    "lint:watch": "gaze 'eslint $path' 'lib/**/*.js'",
     "build": "npm run babel",
     "watch": "npm run babel:watch & npm run lint:watch"
   },
